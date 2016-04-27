@@ -1,0 +1,15 @@
+Package: covRNA
+Type: Package
+Title: Multivariate Analysis of Transcriptomic Data
+Version: 0.99.0
+Date: 2016-2-07
+Author: Lara Urban <lara.h.urban@ebi.ac.uk>
+Maintainer: Lara Urban <lara.h.urban@ebi.ac.uk>
+Description: This package provides the analysis methods fourthcorner and RLQ
+    analysis for large-scale transcriptomic data.
+License: GPL (>= 2)
+LazyData: TRUE
+Imports: parallel, ade4, Biobase, genefilter, grDevices, stats, graphics
+biocViews: GeneExpression, Transcription
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
